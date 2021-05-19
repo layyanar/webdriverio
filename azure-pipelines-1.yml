@@ -7,16 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
-
-resources:
-  pipelines:
-    - pipeline: securitylib # Name of the pipeline resource
-      project: string # project for the source; optional for current project
-      source: security-lib-ci # Name of the pipeline referenced by the pipeline resource
-      trigger:
-        branches:
-          - master
+  vmImage: ubuntu-latest\
 
 steps:
   - task: NodeTool@0
