@@ -6,9 +6,8 @@
 trigger:
   - master
 
-- job: Windows
-  pool:
-    vmImage: 'windows-latest'
+pool:
+  vmImage: 'windows-latest'
 
 steps:
   - task: NodeTool@0
