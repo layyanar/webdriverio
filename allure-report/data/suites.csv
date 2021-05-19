@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon May 17 11:01:15 AEST 2021","Mon May 17 11:01:21 AEST 2021","5432","","homepage elements handle","","homepage elements handle","verify homepage elements","verify homepage elements",""
+"broken","Fri May 14 11:06:03 AEST 2021","Fri May 14 11:06:13 AEST 2021","10332","","login page feature test","","login page feature test","verify sign up link","verify sign up link",""
+"passed","Mon May 17 10:53:53 AEST 2021","Mon May 17 10:54:00 AEST 2021","6741","","homepage elements handle","","homepage elements handle","verify homepage elements","verify homepage elements",""
+"broken","Fri May 14 11:05:50 AEST 2021","Fri May 14 11:06:03 AEST 2021","12297","","login page feature test","","login page feature test","verify login page title","verify login page title",""
+"broken","Fri May 14 11:06:13 AEST 2021","Fri May 14 11:06:24 AEST 2021","10526","","login page feature test","","login page feature test","verify login","verify login",""

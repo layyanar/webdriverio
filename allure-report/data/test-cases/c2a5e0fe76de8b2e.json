@@ -1,0 +1,91 @@
+{
+  "uid" : "c2a5e0fe76de8b2e",
+  "name" : "verify homepage elements",
+  "fullName" : "homepage elements handle.verify homepage elements",
+  "historyId" : "b9b5934e538ca0e3e7ae24759eed539e",
+  "time" : {
+    "start" : 1621212398246,
+    "stop" : 1621212398607,
+    "duration" : 361
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "BhxBrowser is not defined",
+  "statusTrace" : "ReferenceError: BhxBrowser is not defined\n                    at Context.<anonymous> (/Users/layyanar/Documents/Git/webdriver-io-projects/webdriver-test/test/homepage-test.js:5:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "BhxBrowser is not defined",
+    "statusTrace" : "ReferenceError: BhxBrowser is not defined\n                    at Context.<anonymous> (/Users/layyanar/Documents/Git/webdriver-io-projects/webdriver-test/test/homepage-test.js:5:5)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1621212398387,
+        "stop" : 1621212398605,
+        "duration" : 218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "af99e7d855b2ed70",
+        "name" : "Screenshot",
+        "source" : "af99e7d855b2ed70.png",
+        "type" : "image/png",
+        "size" : 15334
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "homepage elements handle"
+  }, {
+    "name" : "testClass",
+    "value" : "homepage elements handle"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify homepage elements"
+  }, {
+    "name" : "package",
+    "value" : "homepage elements handle"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2a5e0fe76de8b2e.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

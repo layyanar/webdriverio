@@ -1,0 +1,81 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621234184210' stop='1621234184222'>
+    <name>Freshwork portal: Homepage validation</name>
+    <title>Freshwork portal: Homepage validation</title>
+    <test-cases>
+        <test-case start='1621234184210' status='passed' stop='1621234184213'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621234184213' status='broken' stop='1621234184220'>
+            <name>Given User is on freshworks page</name>
+            <title>Given User is on freshworks page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>ReferenceError: url is not defined</message>
+                <stack-trace>ReferenceError: url is not defined
+                    at HomePage.navigateToHomePage (/Users/layyanar/Documents/Git/webdriver-io-projects/webdriver-test/page/home-page.js:3:17)
+                    at World.&lt;anonymous> (/Users/layyanar/Documents/Git/webdriver-io-projects/webdriver-test/step-definitions/step-homepage.js:6:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621234184220' status='undefined'>
+            <name>When Print the page header name</name>
+            <title>When Print the page header name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621234184220' status='pending' stop='1621234184220'>
+            <name>Print the page header name</name>
+            <title>Print the page header name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621234184221' status='passed' stop='1621234184222'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

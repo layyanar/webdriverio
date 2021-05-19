@@ -1,0 +1,155 @@
+{
+  "uid" : "e426eacc1137db5c",
+  "name" : "verify homepage elements",
+  "fullName" : "homepage elements handle.verify homepage elements",
+  "historyId" : "b9b5934e538ca0e3e7ae24759eed539e",
+  "time" : {
+    "start" : 1621212833417,
+    "stop" : 1621212840158,
+    "duration" : 6741
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1621212833537,
+        "stop" : 1621212840104,
+        "duration" : 6567
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f4d8f91a7a252f9a",
+        "name" : "Request",
+        "source" : "f4d8f91a7a252f9a.json",
+        "type" : "application/json",
+        "size" : 42
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1621212840106,
+        "stop" : 1621212840130,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d7bd269ae99fa07c",
+        "name" : "Request",
+        "source" : "d7bd269ae99fa07c.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "e0d17f7c9526d260",
+        "name" : "Response",
+        "source" : "e0d17f7c9526d260.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/2433e4dd-4476-4e58-a089-45cc5f560a82/text",
+      "time" : {
+        "start" : 1621212840136,
+        "stop" : 1621212840156,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5a7478f5a64df165",
+        "name" : "Response",
+        "source" : "5a7478f5a64df165.json",
+        "type" : "application/json",
+        "size" : 48
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "homepage elements handle"
+  }, {
+    "name" : "testClass",
+    "value" : "homepage elements handle"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify homepage elements"
+  }, {
+    "name" : "package",
+    "value" : "homepage elements handle"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c2a5e0fe76de8b2e",
+      "status" : "broken",
+      "statusDetails" : "BhxBrowser is not defined",
+      "time" : {
+        "start" : 1621212398246,
+        "stop" : 1621212398607,
+        "duration" : 361
+      }
+    }, {
+      "uid" : "d12f85e8bf2e45a",
+      "status" : "broken",
+      "statusDetails" : "BhxBrowser is not defined",
+      "time" : {
+        "start" : 1621211403201,
+        "stop" : 1621211403727,
+        "duration" : 526
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e426eacc1137db5c.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

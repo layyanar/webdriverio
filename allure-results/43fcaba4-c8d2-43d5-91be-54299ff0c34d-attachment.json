@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//li//a//span[contains(@href, 'https://www.freshworks.com/support/')]"
+}

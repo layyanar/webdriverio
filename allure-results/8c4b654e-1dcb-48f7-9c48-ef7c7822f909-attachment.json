@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//li//a[contains(@class, 'nav-sub-item')]//span[contains(@text, 'Help')]"
+}

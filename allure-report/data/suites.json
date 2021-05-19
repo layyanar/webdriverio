@@ -1,0 +1,78 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "login page feature test",
+    "children" : [ {
+      "name" : "verify login page title",
+      "uid" : "7311aeea31668fbf",
+      "parentUid" : "d9ed5704eee91a664d7439de9aa464a1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1620954350989,
+        "stop" : 1620954363286,
+        "duration" : 12297
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "verify sign up link",
+      "uid" : "9f82657c618453b0",
+      "parentUid" : "d9ed5704eee91a664d7439de9aa464a1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1620954363287,
+        "stop" : 1620954373619,
+        "duration" : 10332
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "verify login",
+      "uid" : "5e6143ddfedbed11",
+      "parentUid" : "d9ed5704eee91a664d7439de9aa464a1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1620954373619,
+        "stop" : 1620954384145,
+        "duration" : 10526
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    } ],
+    "uid" : "d9ed5704eee91a664d7439de9aa464a1"
+  }, {
+    "name" : "homepage elements handle",
+    "children" : [ {
+      "name" : "verify homepage elements",
+      "uid" : "e426eacc1137db5c",
+      "parentUid" : "4b2bf53bdaa82fafe30a4b41121ae41b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621212833417,
+        "stop" : 1621212840158,
+        "duration" : 6741
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "verify homepage elements",
+      "uid" : "3ff887664117b92",
+      "parentUid" : "4b2bf53bdaa82fafe30a4b41121ae41b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621213275715,
+        "stop" : 1621213281147,
+        "duration" : 5432
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-83.0.4103.61" ]
+    } ],
+    "uid" : "4b2bf53bdaa82fafe30a4b41121ae41b"
+  } ]
+}

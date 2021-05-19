@@ -1,0 +1,100 @@
+{
+  "271a32eb604bc14a99764bc1cc80b041" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ff887664117b92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621213275715,
+        "stop" : 1621213281147,
+        "duration" : 5432
+      }
+    } ]
+  },
+  "e5433acad9aa111aec9d9ea8d98f18b6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f82657c618453b0",
+      "status" : "broken",
+      "statusDetails" : "element (\"= Sign up\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1620954363287,
+        "stop" : 1620954373619,
+        "duration" : 10332
+      }
+    } ]
+  },
+  "ed530d17b39e7bf49265c120459e1f8f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7311aeea31668fbf",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1620954350989,
+        "stop" : 1620954363286,
+        "duration" : 12297
+      }
+    } ]
+  },
+  "b9b5934e538ca0e3e7ae24759eed539e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e426eacc1137db5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621212833417,
+        "stop" : 1621212840158,
+        "duration" : 6741
+      }
+    } ]
+  },
+  "eea9c9f57f9c2577212ab3507b52a74d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e6143ddfedbed11",
+      "status" : "broken",
+      "statusDetails" : "element (\"#username\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1620954373619,
+        "stop" : 1620954384145,
+        "duration" : 10526
+      }
+    } ]
+  }
+}

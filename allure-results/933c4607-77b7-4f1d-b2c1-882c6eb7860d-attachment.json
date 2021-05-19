@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "div.banner-text-context > p.sub-text"
+}

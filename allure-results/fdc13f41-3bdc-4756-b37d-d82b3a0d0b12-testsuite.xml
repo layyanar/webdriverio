@@ -1,0 +1,159 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621313332885' stop='1621313355612'>
+    <name>Freshwork portal: Homepage validation</name>
+    <title>Freshwork portal: Homepage validation</title>
+    <test-cases>
+        <test-case start='1621313332886' status='passed' stop='1621313332888'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iphone-13.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621313332888' status='passed' stop='1621313354487'>
+            <name>Given User is on freshworks page</name>
+            <title>Given User is on freshworks page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iphone-13.0'/>
+            </parameters>
+            <steps>
+                <step start='1621313332891' status='passed' stop='1621313354485'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='964371a1-d308-4d12-a763-e85aae2c6844-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1621313354487' status='passed' stop='1621313354626'>
+            <name>When User prints the page header name</name>
+            <title>When User prints the page header name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iphone-13.0'/>
+            </parameters>
+            <steps>
+                <step start='1621313354490' status='passed' stop='1621313354546'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2563e599-fa25-43e9-bf41-9459adc61b47-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='a3d693d1-da9d-4e63-845e-4b48feb40c49-attachment.json' type='application/json' size='72'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1621313354557' status='passed' stop='1621313354625'>
+                    <name>GET /session/:sessionId/element/5000/text</name>
+                    <title>GET /session/:sessionId/element/5000/text</title>
+                    <attachments>
+                        <attachment title='Response' source='395f0ec4-6774-423c-a1fe-7360297304ef-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1621313354627' status='passed' stop='1621313354769'>
+            <name>When User prints the subheading name</name>
+            <title>When User prints the subheading name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iphone-13.0'/>
+            </parameters>
+            <steps>
+                <step start='1621313354630' status='passed' stop='1621313354704'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b7dc66e3-cbc5-487c-a596-f5d9304c10de-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='784cdc06-1cdc-4046-aa8d-5b55c9c7c6a2-attachment.json' type='application/json' size='72'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1621313354712' status='passed' stop='1621313354769'>
+                    <name>GET /session/:sessionId/element/5001/text</name>
+                    <title>GET /session/:sessionId/element/5001/text</title>
+                    <attachments>
+                        <attachment title='Response' source='1831261c-3c92-49c0-a2e5-87fe21a6cb88-attachment.json' type='application/json' size='179'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1621313354769' status='broken' stop='1621313355610'>
+            <name>Then User clicks on the customer link</name>
+            <title>Then User clicks on the customer link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iphone-13.0'/>
+            </parameters>
+            <steps>
+                <step start='1621313354770' status='passed' stop='1621313354840'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c1fd602c-3110-4fbf-a387-61aa06c4535a-attachment.json' type='application/json' size='80'/>
+                        <attachment title='Response' source='ee183b84-e8d3-4f87-ada4-2c30ca9cef91-attachment.json' type='application/json' size='72'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1621313354847' status='broken' stop='1621313355610'>
+                    <name>POST /session/:sessionId/element/5002/click</name>
+                    <title>POST /session/:sessionId/element/5002/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Element is not currently visible and may not be manipulated</message>
+                <stack-trace>Error: Element is not currently visible and may not be manipulated
+                    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+                    at HomePage.clickCustomerLink (/Users/layyanar/Documents/Git/webdriver-io-projects/webdriver-test/page/home-page.js:35:18)
+                    at World.&lt;anonymous> (/Users/layyanar/Documents/Git/webdriver-io-projects/webdriver-test/step-definitions/step-homepage.js:18:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621313355610' status='passed' stop='1621313355611'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iphone-13.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

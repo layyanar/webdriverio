@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div//li//a[contains(@class, 'nav-label')]"
+}
