@@ -337,15 +337,5 @@ exports.config = {
       // "browserstack.local": "true",
       acceptSslCerts: "true",
     },
-    {
-      browserName: "iPhone 11 Pro Max",
-      device: "iPhone 11 Pro Max",
-      realMobile: "true",
-      os_version: "13",
-      name: "iPhone 11 Pro Max",
-      "browserstack.appium_version": "1.17.0",
-      // "browserstack.local": "true",
-      acceptSslCerts: "true",
-    },
   ],
 };
