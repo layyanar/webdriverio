@@ -20,13 +20,6 @@ class HomePage {
     let navIcon = $("//li//span[text()='Support']");
     navIcon.waitForClickable();
     navIcon.click();
-    // let supLink = $(
-    //   "//li//a//span[contains(@href, 'https://www.freshworks.com/support/')]"
-    // );
-    // console.log("SupportLink is: " + supLink.getText);
-    // supLink.waitForClickable();
-    // supLink.click();
-
     browser.pause(5000);
   }
 
