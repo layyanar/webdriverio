@@ -4,18 +4,19 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 trigger:
-- main
+  - master
 
-pool:
-  vmImage: ubuntu-latest
+- job: Windows
+  pool:
+    vmImage: 'windows-latest'
 
 steps:
-# - task: NodeTool@0
-#   inputs:
-#     versionSpec: '10.x'
-#   displayName: 'Install Node.js'
+  - task: NodeTool@0
+    inputs:
+      versionSpec: "10.x"
+    displayName: "Install Node.js"
 
-- script: |
-    npm install
-    npm run test -- --cucumberOpts.tagExpression "@freshwork"
-  displayName: 'npm install and test'
+  - script: |
+      npm install
+      npm run test -- --cucumberOpts.tagExpression "@freshwork"
+    displayName: "npm run test"
