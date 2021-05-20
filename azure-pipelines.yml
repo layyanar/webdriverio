@@ -7,7 +7,7 @@ trigger:
   - master
 
 pool:
-  vmImage: 'ubuntu-lin-image'
+  vmImage: 'lingallery/ubuntu-lin-image'
 
 steps:
   - task: NodeTool@0
