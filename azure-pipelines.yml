@@ -17,5 +17,5 @@ steps:
 
   - script: |
       npm install
-      npm run test -- --cucumberOpts.tagExpression "@freshwork"
+      npm run test --cucumberOpts.tagExpression "@freshwork"
     displayName: "npm run test"
