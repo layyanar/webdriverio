@@ -7,7 +7,7 @@ trigger:
   - master
 
 pool:
-  vmImage: 'lingallery/ubuntu-lin-image'
+  vmImage: 'vm1-webdriver-test/CentOS-based 7.9 - Gen1'
 
 steps:
   - task: NodeTool@0
