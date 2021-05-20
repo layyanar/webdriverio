@@ -4,6 +4,7 @@ class HomePage {
   //Cucumber
   navigateToHomePage() {
     browser.url("https://freshworks.com");
+    browser.maximizeWindow();
   }
 
   getPageHeader() {
