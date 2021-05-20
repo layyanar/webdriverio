@@ -7,7 +7,7 @@ trigger:
   - master
 
 pool:
-  vmImage: 'vm1-webdriver-test/CentOS-based 7.9 - Gen1'
+  vmImage: 'vm1-webdriver-test'
 
 steps:
   - task: NodeTool@0
